@@ -4,6 +4,7 @@
   src: url(../fonts/Roboto/Regular/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Roboto/Regular/Roboto-Regular.ttf) format("truetype"), url(../fonts/Roboto/Regular/Roboto-Regular.otf) format("opentype"), url(../fonts/Roboto/Regular/Roboto-Regular.woff) format("woff"), url(../fonts/Roboto/Regular/Roboto-Regular.woff2) format("woff2"), url(../fonts/Roboto/Regular/Roboto-Regular.svg#Roboto-Regular) format("svg");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
   src: url(../fonts/Roboto/Medium/Roboto-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Roboto/Medium/Roboto-Medium.ttf) format("truetype"), url(../fonts/Roboto/Medium/Roboto-Medium.otf) format("opentype"), url(../fonts/Roboto/Medium/Roboto-Medium.woff) format("woff"), url(../fonts/Roboto/Medium/Roboto-Medium.woff2) format("woff2"), url(../fonts/Roboto/Medium/Roboto-Medium.svg#Roboto-Medium) format("svg");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -20,6 +22,7 @@
   src: url(../fonts/PT_Serif/Regular/PTSerif-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/PT_Serif/Regular/PTSerif-Regular.ttf) format("truetype"), url(../fonts/PT_Serif/Regular/PTSerif-Regular.otf) format("opentype"), url(../fonts/PT_Serif/Regular/PTSerif-Regular.woff) format("woff"), url(../fonts/PT_Serif/Regular/PTSerif-Regular.woff2) format("woff2"), url(../fonts/PT_Serif/Regular/PTSerif-Regular.svg#PTSerif-Regular) format("svg");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -28,6 +31,7 @@
   src: url(../fonts/PT_Serif/Bold/PTSerif-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/PT_Serif/Bold/PTSerif-Bold.ttf) format("truetype"), url(../fonts/PT_Serif/Bold/PTSerif-Bold.otf) format("opentype"), url(../fonts/PT_Serif/Bold/PTSerif-Bold.woff) format("woff"), url(../fonts/PT_Serif/Bold/PTSerif-Bold.woff2) format("woff2"), url(../fonts/PT_Serif/Bold/PTSerif-Bold.svg#PTSerif-Bold) format("svg");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -252,7 +256,7 @@ iframe {
 
 .modal input[type="text"],
 .modal input[type="email"],
-.modal input[type="phone"] {
+.modal input[type="tel"] {
   margin-bottom: 15px;
   height: 40px;
   padding: 0 10px;
